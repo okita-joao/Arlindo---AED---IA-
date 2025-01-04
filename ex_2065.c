@@ -83,13 +83,6 @@ void empilha_caixa(caixa **base, int t, int t2, int t3){
         printf("Erro ao alocar memoria\n");
 }
 
-void desempilha_caixa(caixa **base){
-    caixa *temp = *base;
-    *base = temp->prox;
-    temp->prox = NULL;
-    free(temp);
-}
-
 void desempilha_caixa_especifico(caixa **base, int ident){
     if(*base == NULL) return; // Lista vazia
     caixa *temp = *base, *anterior = NULL;
