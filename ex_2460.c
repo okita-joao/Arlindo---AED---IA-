@@ -88,5 +88,7 @@ int main(){
         remove_pessoa_fila(&fila, ident_saidos[i]);
     }
     printf_fila(fila);
+    free(identificadores);
+    free(ident_saidos);
     return 0;
 }
