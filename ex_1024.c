@@ -1,8 +1,3 @@
-/*
-  @autor: Malbolge;
-  @data: 30/08/2018;
-  @nome: Criptografia;
-*/
 
 #include <stdio.h>
 #include <string.h>
