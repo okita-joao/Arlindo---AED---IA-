@@ -1,8 +1,3 @@
-/*
-	@autor: Malbolge;
-	@data: 07/10/2018;
-	@nome: Primeiro Dicionário de Andy;
-*/
 
 #include <stdio.h>
 #include <string.h>
