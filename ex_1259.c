@@ -3,12 +3,12 @@
 
 int ascending(void const *a, void const *b )
 {
-    return (*(int*)a - *(int*)b );
+    return (* (int*)a - * (int*)b );
 }
 
 int descending(void const *a, void const *b )
 {
-    return (*(int*)b - *(int*)a );
+    return (* (int*)b - * (int*)a );
 }
 
 int main(){
