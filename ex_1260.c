@@ -1,9 +1,3 @@
-/*
-	@autor: Malbolge;
-	@data: 03/12/2018;
-	@nome: Espécies de Madeira;
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
