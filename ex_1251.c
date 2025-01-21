@@ -1,8 +1,3 @@
-/*
-	@autor: Malbolge;
-	@data: 12/10/2018;
-	@nome: Diga-me a Frequência;
-*/
 
 #include <stdio.h>
 #include <stdbool.h>
